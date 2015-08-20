@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/asustor/cross_platform/build/patches/cups/1.5.2/100-fix-cross-without-genstrings.patch'
+let g:netrw_dirhist_2='/asustor/cross_platform/source/cups-1.5.2/ppdc'
+let g:netrw_dirhist_3='/usr/lib/tcl8.5'
+let g:netrw_dirhist_4='/asustor/IntelCE-30.0.12493.331318/project_build_i686/IntelCE/redboot-30.0.12464.330783/redboot/build'
+let g:netrw_dirhist_5='/tmp/cscope.20366'
+let g:netrw_dirhist_6='/asustor/build/config'
+let g:netrw_dirhist_7='/asustor/IntelCE-30.0.12493.331318/project_build_i686/IntelCE/osal-30.0.12493.331318/linux_user'
+let g:netrw_dirhist_8='/Users/woodrowshen/.vim/bundle/pydiction-1.2.1'
+let g:netrw_dirhist_9='/Users/woodrowshen/github/my-vim-set-mac/.vim/bundle/vim-matrix-screensaver'
