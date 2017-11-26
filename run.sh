@@ -3,7 +3,7 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install vim
-brew isntall vim
+brew install vim
 
 # install go
 brew install go
