@@ -18,7 +18,7 @@ EOF
 source $HOME/.bash_profile
 
 # copy .vim/
-cp .vim ~/
+cp -r .vim ~/
 cp .vimrc ~/
 
 # install ycm
@@ -29,6 +29,8 @@ cd YouCompleteMe
 git submodule update --init --recursive
 
 ./install.py --clang-completer --gocode-completer
+
+cp .ycm_extra_conf.py ~/
 
 # install git
 brew install bash-git-prompt
