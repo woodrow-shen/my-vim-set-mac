@@ -28,9 +28,14 @@ cat << EOF >> $HOME/.bash_profile
 export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/.go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
 EOF
 
 source $HOME/.bash_profile
+
+# copy .vim/
+cp -r .vim ~/
+cp .vimrc ~/
 
 # install ycm
 mkdir -p $HOME/.vim/bundle
