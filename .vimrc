@@ -14,8 +14,6 @@ endif
 set t_Co=256
 syntax on
 set showcmd		" Show (partial) command in status line.
-set ts=4
-set shiftwidth=4
 set hid
 set nosol
 set ls=2
@@ -32,6 +30,9 @@ set vb t_vb=
 set tabpagemax=16
 set hlsearch
 "set hls
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+"for linux kernel
+"set tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
 
 
 "folding settings
@@ -62,7 +63,7 @@ map <F6> zM <cr>
 "map <F8> :bn!<cr>
 
 " set the versioning system type to vcscommand
-let VCSCommandVCSTypePreference = "svn"
+let VCSCommandVCSTypePreference = "git"
 " use vcscommand: |<Leader>|cd VCSDiff 
 nnoremap <silent> <F7> :VCSVimDiff <cr>
 " return from diff mode to normal mode 
@@ -151,7 +152,8 @@ let g:go_fmt_command = "goimports"
 set backspace=indent,eol,start
 
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
-let g:ycm_confirm_extra_conf = 0 
+let g:ycm_confirm_extra_conf = 0
+let g:ycm_show_diagnostics_ui = 0
 
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
