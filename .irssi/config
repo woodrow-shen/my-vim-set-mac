@@ -143,9 +143,12 @@ channels = (
   { name = "#virgil"; chatnet = "Canonical"; autojoin = "yes"; },
   { name = "#timbuktu"; chatnet = "Canonical"; autojoin = "yes"; },
   { name = "#chelmsford"; chatnet = "Canonical"; autojoin = "yes"; },
+  { name = "#ce-certification-qa"; chatnet = "Canonical"; autojoin = "yes"; },
   { name = "#ubuntu-tw"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#tossug"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#snappy"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#ubuntu-meeting"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#ubuntu-motu"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#dot"; chatnet = "Debian"; autojoin = "yes"; }
 );
 
