@@ -37,8 +37,12 @@ source $HOME/.bash_profile
 cp -r .vim ~/
 cp .vimrc ~/
 
-# install ycm
 mkdir -p $HOME/.vim/bundle
+
+# install ansible syntax highlight
+git clone https://github.com/pearofducks/ansible-vim ~/.vim/bundle/ansible-vim
+
+# install ycm
 cd $HOME/.vim/bundle 
 git clone https://github.com/Valloric/YouCompleteMe.git
 cd YouCompleteMe
