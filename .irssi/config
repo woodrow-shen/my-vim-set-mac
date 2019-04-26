@@ -145,6 +145,7 @@ channels = (
   { name = "#chelmsford"; chatnet = "Canonical"; autojoin = "yes"; },
   { name = "#fortknox"; chatnet = "Canonical"; autojoin = "yes"; },
   { name = "#ce-certification-qa"; chatnet = "Canonical"; autojoin = "yes"; },
+  { name = "#oemdesktop"; chatnet = "Canonical"; autojoin = "yes"; },
   { name = "#stable-kernel"; chatnet = "Canonical"; autojoin = "yes"; },
   { name = "#ubuntu-tw"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#tossug"; chatnet = "Freenode"; autojoin = "yes"; },
