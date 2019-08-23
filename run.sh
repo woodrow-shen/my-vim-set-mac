@@ -48,6 +48,9 @@ python3 ./install.py --clang-completer --gocode-completer
 
 cp ~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py ~/.vim/
 
+# install all the necessary binaries for vim-go
+vim +GoInstallBinaries +qall
+
 # install git-prompt-bash
 brew install bash-git-prompt
 
