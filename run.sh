@@ -3,7 +3,7 @@
 set -e
 CURDIR=$PWD
 
-cat << EOF > ~/.bash_profile
+cat << EOF >> ~/.bash_profile
 alias ll='ls -laG'
 
 export CLICOLOR=1
@@ -16,6 +16,14 @@ EOF
 
 # install vim
 brew install vim
+
+# install ctags
+brew install ctags
+
+cat << EOF >> ~/.bash_profile
+alias ctags="`brew --prefix`/bin/ctags"
+
+EOF
 
 # install Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
