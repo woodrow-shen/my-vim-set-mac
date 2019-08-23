@@ -52,7 +52,7 @@ source "$HOME"/.bash_profile
 cd "$HOME"/.vim/bundle
 cd YouCompleteMe
 
-python3 ./install.py --clang-completer --gocode-completer
+./install.py --clang-completer --gocode-completer
 
 cp ~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py ~/.vim/
 
