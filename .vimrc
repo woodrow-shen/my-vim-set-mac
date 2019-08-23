@@ -114,6 +114,7 @@ nmap <silent> <F1> :Tlist <cr>
 nmap <silent> <F2> :TlistOpen <cr>
 nmap <silent> <F3> :q <cr>
 nmap <silent> <F4> \be
+nmap <silent> <F5> :NERDTree <cr>
 nmap <silent> <C-N><C-N> :set nu!<cr>
 
 "au InsertLeave * hi ModeMsg ctermfg=black ctermbg=yellow gui=undercurl guisp=Magenta
