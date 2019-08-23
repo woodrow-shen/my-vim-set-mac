@@ -12,6 +12,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Plugin on GitHub repo
+" Tabnine can NOT co-exist with YCM, so tabnine is used by default
 Plugin 'zxqfl/tabnine-vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
@@ -92,7 +93,7 @@ let Tlist_Show_Menu=1
 
 " YCM
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
-let g:ycm_server_python_interpreter='/usr/bin/python3'
+let g:ycm_server_python_interpreter='/usr/bin/python'
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_show_diagnostics_ui = 0
 
@@ -105,6 +106,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_cpp_compiler = 'g++'
+let g:syntastic_cpp_compiler_options = ' -std=c++11'
 
 " Map taglist
 nmap <silent> <F1> :Tlist <cr>
